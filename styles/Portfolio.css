@@ -1,0 +1,77 @@
+.portfolio {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .portfolio .portfolioTitle {
+    font-family: 'Poppins';
+    font-size: 60px;
+  }
+  
+  .portfolioList {
+    max-width: 1000px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+  }
+  
+  /* MENU ITEM STYLING */
+  
+  .portfolioItem {
+    width: 100%;
+    height: 350px;
+    margin: 20px;
+    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: row;
+  }
+  .portfolioItem:hover {
+    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+    transition: 0.3s ease-in;
+    cursor: pointer;
+  }
+
+  .portfolioItemRight {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 100%;
+  }
+  
+  .portfolioItemLeft div {
+      height: 100%;
+  }
+
+
+  .portfolioItemLeft {
+    width: 50%;
+    height: 100%;
+}
+
+
+  .itemTags {
+      border: 2px solid gray;
+      margin: 4px;
+      padding: 4px;
+  }
+  .portfolioItem h1,
+  .portfolioItem p {
+    margin-left: 20px;
+  }
+  
+  @media only screen and (max-width: 1300px) {
+    .portfolioList {
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+  
+  @media only screen and (max-width: 800px) {
+    .portfolioList {
+      grid-template-columns: 1fr;
+    }
+  }
