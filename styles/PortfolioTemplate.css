@@ -26,18 +26,13 @@
 .overviewBox {
     border: 3px solid black;
     padding: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
 }
 
-.overviewBoxTop {
-    display: flex;
+.overviewSubBox {
     flex-direction: row;
-    justify-content: space-around;
-}
-
-.overviewBoxBottom {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
 }
 
 .sectionDivider {

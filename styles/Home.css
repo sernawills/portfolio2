@@ -1,7 +1,6 @@
 .home {
     max-width: 1000px;
     margin: auto;
-    padding: 10px;
     width: 100%;
     height: 90vh;
     display: flex;
@@ -16,7 +15,6 @@
   
   .headerContainer {
     width: auto;
-    margin-left: 50px;
   }
   
   .headerContainer h1 {
@@ -25,14 +23,14 @@
     font-size: 90px;
     height: 60px;
     font-weight: 50;
-    color: black;
+    color: #121212;
   }
   
   .headerContainer p {
     padding: 0;
     font-size: 40px;
     font-weight: lighter;
-    color: black;
+    color: #121212;
   }
   
   .headerContainer button {
@@ -42,10 +40,11 @@
     background-color: transparent;
     height: 50px;
     width: 180px;
-    color: black;
+    color: #121212;
     text-decoration: none;
     font-size: 20px;
     border: 2px solid #C6BCFF;
+    font-weight: bold;
   }
   
   .headerContainer button:hover {
@@ -56,8 +55,17 @@
   }
 
   #aboutMeLink {
+    text-decoration: underline;
+    text-decoration-color: aqua;
+    text-decoration-style: wavy;
+    color: #121212;
+    padding-right: 2px;
+    padding-left: 2px;
+}
+
+  #aboutMeLink:hover {
       text-decoration: none;
-      color: black;
+      color: #C6BCFF;
       background-color: aqua;
   }
   

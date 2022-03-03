@@ -1,23 +1,12 @@
-.portfolio {
-    width: 100%;
-    height: auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-  }
-  .portfolio .portfolioTitle {
-    font-family: 'Poppins';
-    font-size: 60px;
-  }
-  
-  .portfolioList {
+
+   .portfolioContainer {
     max-width: 1000px;
     width: 100%;
     height: auto;
     display: flex;
     flex-direction: column;
     place-items: center;
+    margin: auto;
   }
   
   /* MENU ITEM STYLING */
@@ -53,15 +42,23 @@
     height: 100%;
 }
 
-
   .itemTags {
       border: 2px solid gray;
-      margin: 4px;
+      margin:0px;
       padding: 4px;
   }
-  .portfolioItem h1,
-  .portfolioItem p {
-    margin-left: 20px;
+
+  .itemTagsContainer {
+      margin: 0px;
+  }
+
+
+
+
+  .iframe {
+      border: 2px solid black;
+      width: 1000px;
+      height: 700px;
   }
   
   @media only screen and (max-width: 1300px) {
