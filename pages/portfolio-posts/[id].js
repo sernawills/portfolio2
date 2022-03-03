@@ -15,26 +15,31 @@ export async function getStaticPaths() {
 
 export default function Post({ itemData }) {
   return (
+    <>
+    <div className="cover">
+    <Image 
+        src={`/images/${itemData.cover.cover_image}`}
+        layout='fill'
+        objectFit="cover"
+    />
+    </div>
     <div className="portfolioTemplate">
 
             {/* COVER */}
+            
             
             <h6 className="sectionDivider">
                 — OVERVIEW
             </h6>
 
+            <h1>
+                {itemData.cover.title}
+            </h1>
+
             <div className="coverContainer">
-                <div className="coverContainerLeft">
-                    <h1>
-                        {itemData.cover.title}
-                    </h1>
                     <p>
-                        {itemData.cover.description}
+                        {itemData.overview.overview_text}
                     </p>
-                </div>
-                <div className="coverContainerRight">
-                    {/* <div className="coverImage" style={{ backgroundImage:  `url(${someImage})`  }}></div> */}
-                </div> 
             </div>
 
             {/* OVERVIEW */}
@@ -75,5 +80,6 @@ export default function Post({ itemData }) {
 
             </div>
         </div>
+    </>
   )
 }

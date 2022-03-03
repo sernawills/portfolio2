@@ -15,20 +15,24 @@
     background-color: rgb(198, 188, 255, 0.3);
     color: #222;
     line-height: 1.7;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: lighter;
   }
 
   .horizontal {
     max-width: 1000px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     height: auto;
     margin-top: 10px;
     margin-bottom: 10px;
 }
 
 .vertical {
-    float: left;
-    margin-right: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     margin-top: 10px;
     margin-bottom: 10px;
 }

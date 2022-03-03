@@ -7,6 +7,7 @@
     flex-direction: column;
     place-items: center;
     margin: auto;
+    margin-top: 100px;
   }
   
   /* MENU ITEM STYLING */
