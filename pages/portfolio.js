@@ -32,8 +32,8 @@ function Portfolio({ allItemsData }) {
                                 </div>
                                 <div className={styles.portfolioItemRight}>
                                     <h1 className={utilStyles.entryTitle}> {item.cover.title} </h1>
-                                    <p> {item.cover.description} </p>
-                                    <div className={styles.itemTagsContainer}> {item.cover.tags.map(tag =>
+                                    <p className={utilStyles.pTags}> {item.cover.description} </p>
+                                    <div className={`${styles.itemTagsContainer} ${utilStyles.overviewTags}`}> {item.cover.tags.map(tag =>
                                         <span className={styles.itemTags}>{tag}</span>
                                     )} </div>
                                 </div>

@@ -1,13 +1,16 @@
 import Link from 'next/link';
+import utilStyles from '../styles/utils.module.css'
+import styles from '../styles/index.module.css'
+
 
 function Home() {
     return (
-        <div className="home" >
-            <div className="headerContainer">
-                <h1> Hi, I am <Link href="/about"><a id="aboutMeLink">Luciana</a></Link> </h1>
-                <p> UX designer based in Berlin </p>
+        <div className={styles.homeContainer} >
+            <div className={styles.headerContainer}>
+                <h1 className={utilStyles.homeTitle}>Hi, I am <Link href="/about"><a id={styles.about}>Luciana</a></Link> </h1>
+                <p className={utilStyles.subTitle}>UX designer based in Berlin </p>
                 <Link href="/portfolio">
-                    <button className='buttons'> SEE PORTFOLIO </button>
+                    <button className={styles.button}> SEE PORTFOLIO </button>
                 </Link>
             </div>
         </div>

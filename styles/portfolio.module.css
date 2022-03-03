@@ -30,12 +30,14 @@
     flex-direction: column;
     width: 50%;
     height: 100%;
+    margin: 5px;
   }
 
   .portfolioItemLeft {
     width: 50%;
     height: 100%;
     position: relative;
+    margin: 5px;
 }
 
   .itemTags {

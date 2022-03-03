@@ -1,7 +1,7 @@
 ---
 cover: 
-    title: Making the office space more attractive
-    description: During the Design Thinking Basic Track @HPI we worked together with our project partner Würth Electronics and two teams of 5 to make their office space more attractive. We conducted qualitative research, and delivered two easy to implement prototypes. 
+    title: Hybrid Work
+    description: During the Design Thinking Basic Track @HPI we worked together with our project partner Würth Electronics to create a more attractive office soace. We conducted qualitative research, and delivered two easy to implement prototypes. 
     cover_image: wuerth.png
     tags: 
         - User Research
@@ -30,7 +30,7 @@ Together we conducted about 30 interviews including its team leaders and team me
 We also conducted observations for which 2 team members went to a coworking space in Berlin to observe the work situation. They found out that many people had a big problem working in a noisy atmosphere, what we also realized during the interviews and from our own experiences. 
 
 It is always a challenge to synthetize the most important insights of the research phase. Specially knowing how our decisions could potentially infulence the lives of so many. However after a lot of effort we put together the key insights of the interviews and observations that helped us furhter develop: 
-![keyinsights](/images/w_keyinsights.png)
+![keyinsights](/images/w_keyinsights.png) horizontal
 
 ## — SENSE MAKING AND SYNTHESIS 
 ### Identifying flexibility as the main driver 
@@ -61,7 +61,7 @@ After discussing different ideas we voted for the ones we feel very strongly abo
 
 Based on our top rankings, we chose ideas and used the framework of the idea dashboard to flesh out and deepen the ideas. 
 
-![ideadashboard](/images/w_ideadashboard.png)
+![ideadashboard](/images/w_ideadashboard.png) horizontal
 
 The idea dashboard helps us to better communicate what the solution is about, how it solves Madinis and Meghas problems and how it can be used. 
 
@@ -76,7 +76,7 @@ After iterating on our ptototypes we decided to test them with the users. Since 
 For the Happy Tracker we realized that at that point, we needed to test **the concept** instead of the **usability** of the app. That's why we quickly had to find other alternatives to test other than the Figma prototype. We had to think about how to test the idea, so we did the following: 
 
 1. Contacted our interview partners and asked if they would like to participate in our testing 
-2. Created a survey for each participant which would be the Happy Tracker. The survey looked like this: ![testsurvey](/images/w_survey.png)
+2. Created a survey for each participant which would be the Happy Tracker. The survey looked like this: ![testsurvey](/images/w_survey.png) vertical
 3. Asked each participant to fill their correspondant form every day for a week. 
 4. At the end of the week scheduled a 20 minute call with each participant, where we tried to find out: 
    - If they could imagine filling that out at the end of every week 
