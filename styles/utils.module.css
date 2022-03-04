@@ -1,9 +1,10 @@
 .entryTitle {
-    font-family: Poppins, sans-serif;
+    font-family: Nunito Sans, sans-serif;
     font-size: 36px;
     margin-bottom: 30px;
     line-height: 1.2;
     margin-left: 0px;
+    font-weight: 800;
    }
 .homeTitle {
     font-family: Poppins, sans-serif;
