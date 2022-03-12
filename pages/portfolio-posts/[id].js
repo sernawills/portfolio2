@@ -1,5 +1,6 @@
 import { getAllItemIDs, getFullItemData } from '../../lib/get-portfolio-items'
 import Image from "next/image";
+import styles from '../../styles/utils.module.css'
 
 export async function getStaticProps({ params }) {
   const itemData = await getFullItemData(params.id);
@@ -16,31 +17,20 @@ export async function getStaticPaths() {
 export default function Post({ itemData }) {
   return (
     <>
-    <div className="cover">
-    <Image 
-        src={`/images/${itemData.cover.cover_image}`}
-        layout='fill'
-        objectFit="cover"
-    />
-    </div>
-    <div className="portfolioTemplate">
-
-            {/* COVER */}
-            
-            
-            <h6 className="sectionDivider">
-                — OVERVIEW
-            </h6>
-
-            <h1>
-                {itemData.cover.title}
-            </h1>
-
-            <div className="coverContainer">
-                    <p>
-                        {itemData.overview.overview_text}
-                    </p>
+        <div className="cover">
+            <Image 
+                src={`/images/${itemData.cover.cover_image}`}
+                layout='fill'
+                objectFit="cover"
+            />
+            <div className='coverContainer'> 
+                <div className='coverTitle'>
+                    <h1 className={styles.homeTitle}>{itemData.cover.title} </h1>
+                    <p>{itemData.overview.overview_text}</p>
+                </div>
             </div>
+        </div>
+        <div className="portfolioTemplate">
 
             {/* OVERVIEW */}
 
@@ -48,17 +38,13 @@ export default function Post({ itemData }) {
                 <div className="overviewBox">
                         {itemData.overview.box.box_items.map(({heading, content}) =>
                             <div className='overviewSubBox'>
-                                <h5 className="overviewBoxHeadings">
+                                <div className="overviewBoxHeading">
                                     {heading}
-                                </h5>
-                                <p className="overviewBoxContent">
-                                    {content}
-                                </p>
+                                </div>
+                                <div className="overviewBoxContent">
+                                   {content}
+                                </div>
                             </div>)}
-                </div>
-               
-                <div className="overviewText">
-                    {itemData.overview.overview_text}
                 </div>
             </div>
 

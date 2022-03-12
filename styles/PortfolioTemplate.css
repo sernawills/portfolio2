@@ -10,12 +10,28 @@
 }
 
 .coverContainer {
+    background-color: aqua;
+    width: 50%;
+    position: absolute;
+    top: 60%;
+    bottom: 0;
+    left: 25%;
+}
+
+.coverTitle {
+    padding: 10px;
     display: flex;
-    flex-direction: row;
+    justify-content: center;
+    flex-direction: column;
 }
 
 .coverContainerLeft {
     width: 50%;
+}
+
+.overviewContainer {
+    display: flex;
+    flex-direction: column;
 }
 
 .coverContainerRight {
@@ -31,15 +47,31 @@
 }
 
 .overviewBox {
-    border: 3px solid black;
+    border: 3px solid #f6f6f6;
     padding: 10px;
     margin-bottom: 10px;
-    display: flex;
-    justify-content: space-between;
+    flex-direction: column;
+    width: 100%;
+    box-sizing: border-box;
 }
 
 .overviewSubBox {
+    display: flex;
     flex-direction: row;
+    width: 100%;
+    padding-bottom: 8px;
+    margin-bottom: 8px;
+    border-bottom: solid 1px #f6f6f6;
+}
+
+.overviewBoxHeading {
+    flex-direction: row;
+    width: 25%;
+}
+
+.overviewBoxContent {
+    flex-direction: row;
+    width: 75%;
 }
 
 .sectionDivider {

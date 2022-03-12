@@ -1,7 +1,7 @@
 ---
 cover:
     title: Sketch2Frame
-    description: University project to help designers get the most out of their work, 
+    description: University project to help designers get the most out of their work. 
     cover_image: s2f_cover.png
     tags: 
         - UI 
@@ -11,21 +11,24 @@ cover:
 overview: 
     box:
         box_items:  
-            - heading: ROLE
-              content: UI Designer
+            - heading: CONTEXT
+              content: University project
             - heading: TEAM
-              content: some
-    overview_text: Sketch2Frame uses artifical intelligence and augmented reality technologies to transform wireframes paper sketches into Figma frames that can be further developed into more complex wireframes and eventually an end product. The main focus for this project was usability, and UI design. 
+              content: Worked together with one fellow participant of the course.
+            - heading: DURATION
+              content: 3 weeks
+            - heading: CHALLENGE 
+              content: Design a simple mobile app that helps optimize the work of the designers in some way as part of the course Interface Basics with Prof. Boris Müller
+            - heading:  IDEA
+              content: An application that uses artificial intelligence and augmented reality to transform paper wireframes into Figma frames.
+    overview_text: Sketch2Frame uses artifical intelligence and augmented reality technologies to transform wireframes paper sketches into Figma frames.
 ---
 
 ## — THE CHALLENGE 
-### What are we trying to solve? 
-
-In our class we were given the challenge to design a mobile application that helps designers in some way. We first thought that most of us probably use mostly our laptops to do our job. However we quickly realized during a short brainstorming session that there are endless possibilities, and there are a variety of problems that can be solved and optimized for designers, using a mobile application. 
 
 ### Why Sketch2Frame? 
 
-After brainstorming for ideas and problems, we realized we both find AI tools interesting and wanted to challenge the idea of "Artificial Intelligence is going to replace designers" and stand more to: "AI can empower designers". We decided on this idea, because we found ourselves starting paper wireframes which are incredible useful and won't want to skip that step, and then having to transfer those into Figma frames. That step seemed to be a bit tedious and not that fun. 
+After brainstorming for ideas and problems to tackle the challenge, we realized we find AI tools interesting and wanted to challenge the idea of "AI is going to replace designers" and stand more to: "AI can empower designers". We decided on this idea, because we found ourselves starting paper wireframes which are incredible useful and won't want to skip that step, and then having to transfer those into Figma frames. That step seemed to be a bit tedious and not that fun sometimes. So we came up with the idea of an AI and AR (Augmented Reality) tool that scans paper wireframes and exports them into Figma frames. 
 ![ideas](/images/s2f_ideas.png) vertical
 
 ## — THE PROCESS 
