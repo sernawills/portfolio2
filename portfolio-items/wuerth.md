@@ -1,7 +1,7 @@
 ---
 cover: 
     title: Hybrid Work
-    description: During the Design Thinking Basic Track @HPI we worked together with our project partner Würth Electronics to create a more attractive office soace. We conducted qualitative research, and delivered two easy to implement prototypes. 
+    description: Creating an attractive work environment for Würth Electronics at the HPI Design Thinking School.
     cover_image: wuerth.png
     tags: 
         - User Research

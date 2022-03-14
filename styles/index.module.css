@@ -16,7 +16,7 @@
   }
 
   .button {
-    color: #C6BCFF;
+    color: #6320ee;
     cursor: pointer;
     justify-content: center;
     background-color: transparent;
@@ -25,22 +25,22 @@
     color: #121212;
     text-decoration: none;
     font-size: 20px;
-    border: 2px solid #C6BCFF;
+    border: 2px solid #6320ee;
     font-weight: bold;
   }
 
   .button:hover {
     background-color: transparent;
     cursor: pointer;
-    border: 2px solid aqua;
+    border: 2px solid #aeffd8;
     transition: 0.1s ease-in;
   }
 
   #about {
     text-decoration: underline;
-    text-decoration-color: aqua;
+    text-decoration-color: #aeffd8;
     text-decoration-style: wavy;
-    color: #121212;
+    color: #211a1d;
     padding-right: 2px;
     padding-left: 2px;
   }

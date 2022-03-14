@@ -1,6 +1,6 @@
 .navbarContainer {
     width: 100%;
-    background-color: rgb(198, 188, 255);
+    background-color: #f9f9f7;
     position: fixed;
     position: -webkit-fixed;
     top: 0;
@@ -52,14 +52,14 @@
   }
 
   .navbar a:hover{
-      border: 2px solid aqua;
-      color: rgb(198, 188, 255);
+      border: 2px solid #aeffd8;
+      color: rgb(195, 196, 255);
   }
   
   .navbar .rightSide button {
     background-color: transparent;
     border: none;
-    color: black;
+    color: #272727;
     cursor: pointer;
   }
   
