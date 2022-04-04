@@ -5,7 +5,7 @@ import '../styles/Home.css';
 import '../styles/Navbar.css';
 import '../styles/Play.css';
 import '../styles/Portfolio.css';
-import '../styles/PortfolioTemplate.css';
+import '../styles/PortfolioTemplate.scss';
 
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';

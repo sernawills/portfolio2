@@ -7,6 +7,20 @@
     flex-direction: column;
     font-family: 'Poppins', Arial, Helvetica, sans-serif;
   }
+
+  h2 {
+      font-size: 0.9rem;
+      text-transform: uppercase;
+      letter-spacing: 0.2em;
+      margin-top: 4rem;
+      margin-bottom: 0;
+  }
+
+  h3 {
+      font-size: 1.8rem;
+      margin-top: 3rem;
+      margin-bottom: 0.1rem;
+  }
   
   body {
     font-family: 'Poppins', Arial, Helvetica, sans-serif;

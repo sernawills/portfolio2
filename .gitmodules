@@ -1,0 +1,3 @@
+[submodule "lib/markdown2react"]
+	path = lib/markdown2react
+	url = https://github.com/jannis-baum/markdown2react

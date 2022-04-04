@@ -2,7 +2,7 @@
 cover: 
     title: Flip The Script
     description: An online platform that allows the user to get a gender neutral or gender flipped version of any text input.
-    cover_image: wuerth.png
+    cover_image: /images/fts/logofinal.png
     tags: 
         - User Research
         - Logo Design
@@ -24,78 +24,148 @@ overview:
 
 ---
 ## PROCESS
+
 ### The Problem
 
-In a lot of cases the information written in the internet is heavily gendered and biased. At some point it can become tedious for some to have to read in a gendered and disproportional way. Other problems or pain points include not having an educational yet engaging and easy to understand platform where to find more information about gender and why language is so important.
+The written information in the internet can be heavily male gendered and/or biased and it can become harmful for some individuals. Other pain points include the lack of a reliable and easy to use platform where to find resources on the topic.
 
-### The Solution:
-Offering the user through an application the option to input a text, and get a non-biased version of it. Being also an educational platform, where users can find more information on this topic and why it is important, statistics on how gender biased online resources are, and a predictor for articles, to know how likely it is for an article to be gender biased.
+### The Solution
 
-## Building Empathy 
+Offering the user a platform with a tool to input text, and get a version that is neutral or with the pronouns flipped. Also a predictor to know how gender biased an article might be based on the source, author, etc.
 
-### Survey Findings 
-Thanks to the survey I could gather important insights about my target audience and their needs. The questions I asked were based on my research on the topic: readings, videos, academical papers, etc. The survey helped me later to improve my personas and create new scenarios. So I can say the user research phase was an iterative process.
+## Building Empathy
 
-### Personas 
-I started creating personas even before the results of the surveys and interviews, but later on I improved and change them based on the findings. I created three personas; Alex, Louisa, and Jeff. I referred to them during the process. I realized creating personas is a powerful tool, it allowed me to empathize better, stimulate my creativity, and think outside of the box. It makes me remember that I am designing for real people, with real needs and wishes.
+### Survey Findings
+
+The questions I asked were based on my research on the topic: readings, videos, academical papers, etc. The survey helped me to improve the personas and create new scenarios.
+The main insights we got are:
+
+- Our target group will be young people in their 20s and early 30s.
+  
+- About 78% of the participants agree that how texts are written in a binary way, also often mostly using male pronouns as the standard, affect the way we perceive gender.
+  
+- Most participants would like to have a tool that autmoatically neutralizes the pronouns used in online resources.
+  
+- There is a high preference for a web extension that translates every resource on the internet.
+
+![survey1](/images/fts/survey1.png)
+![survey2](/images/fts/survey2.png)
+![survey3](/images/fts/survey3.png)
+![survey4](/images/fts/survey4.png)
+![survey5](/images/fts/survey5.png)
+![survey6](/images/fts/survey6.png)
+
+### Personas
+
+ Alex, Louisa, and Jeff were the personas I referred to during the whole process. I realized creating personas is a powerful tool, it allowed me to empathize with the user, stimulate my creativity, and consider other aspects I didn't before.
 
 With help of the personas I also created scenarios. Same as with the personas, I created them at first to help me articulate the questions of the survey and interview. And after the findings, I created new scenarios. I can say, the user research phase was definitely an iterative process.
 
-### Creating requirements and strategy.
-In the strategy board I stated all different possible requirements, based on the user research, and organized it by what is the most important for the user, and what is feasible for my team bearing in mind constraints like time, money, and skills. Based on that board, I build the requirements for our application.
+![persona1](/images/fts/persona1.png)
+![persona2](/images/fts/persona2.png)
+![persona3](/images/fts/persona3.png)
 
-As we see although the web extension had the highest importance for our user, the feasibility was really low. That's how we decided to implement the option to input text and get a gender translation, the information about the relevance of the pronouns, statistics, and a social media share button. Unfortunately due to time pressure that last one is still under construction.
+### Creating requirements and strategy
+
+In the **strategy board** I stated all different possible requirements, based on the user research, and organized it by **what is the most important for the user**, and what is **feasible** for my team bearing in mind constraints like time and skills.
+
+![opportunities](/images/fts/opportunities.png)
+
+As we see although the web extension had the highest importance for our user, the feasibility was low. That's how we decided to implement the option to input text and get a gender translation, the information and statistics.
 
 Knowing which requirements we have and also what's the most and least important for the user and what Flip The Script's goal is, I started thinking about the information architecture.
 
 ### Information Architecture
-After having clear the requirements, I started thinking about how to organize the information and how to create appropriate paths for the user. Based on the information gathered during the user research phase, and on Flip The Script's goals, I started to prioritize. For example I found out that the pronoun convertor is of big importance for the user, as well as for us. Therefore this is our main feature and it needed to be present in a way that caught the attention of the user, and give them a call to action, at all times.
+
+Based on the information gathered during the user research phase and our opportunity board, I started to prioritize. For example the **pronoun convertor** is of big importance for the user, as well as for us. Therefore this is going to be our main feature and it needed to be present in a way that caught the attention of the user, and **give them a call to action**, at all times.
+
+%%maybe creenshot of the button up where there is the call to action.
 
 During the process, I asked myself the following guiding questions:
 
 - What is the visitor most interested in? What is the most important/relevant of the project and also for the participants of the survey?
   *The flipping the pronouns of the texts.*
+
 - What would the content be?
   *The flipping feature (translator), the statistics, information about why this is important, and about us.*
+
 - How long is it? How and where can it be presented?
   *Progressive disclosure. So start with the z layout, in the home page you have as little information as possible that allows you to take the action that the user is most interested in: so the flipping feature.*
+
 - How do you structure it?
 
 For this answer I tried doing a decision path diagram.
 
+![arquitecture](/images/fts/arquitecture.png)
+
 ### Making UI Decisions
-I usually start the UI design process with fast prototypes, so extremely low fidelity, and I did them with paper. I didn't use a pencil to not be tempted to erase anything, and just work on as many as I could.
 
-I started doing sketches after I defined the requirements and created an information architecture plan, as well as user paths. As I mentioned, prioritizing information is a big part of this phase, that's why during this phase I already took some decisions:
+I started to do fast, low fidelity, paper wireframes. I didn't use a pencil to not be tempted to erase anything, and went for quantity over quality.
 
-- I decided to use a slightly modified Z Layout for the landing page, calling the user to action (in this case to our convertor, which is an essential feature)
+I also created an information architecture plan, as well as the user paths which helped me make some decisions:
+
+- Modified **Z Layout** for the landing page, **calling the user to action** (in this case to our convertor, which is an essential feature).
+  
 - There's in total two call to action in the landing page, one in the top right corner, and one in the center of the page.
-- I knew before the call to action, we needed to add some convincing and persuadable text first.
-- The order of the menu items needed to be based on the priority features have for the user, so the ones that didn't have a big importance for the user were placed in the middle of the menu bar, since elements in the middle don't get as much attention.
+  
+- I knew before the call to action, we needed to add some **convincing and persuadable text** first.
+  
+- The **order of the menu items** needed to be based on the **priority features for the user**. The least relevant ones were placed in the middle of the menu bar, since elements in the middle don't get as much attention.
 
-The design for the convertor needed to be simple, yet functional. The user needed to be able to use it fast, yet know that it is possible to have more options. At the beginning I wanted to use progressive disclosure and let the user answer some questions first. However, in this case is unnecessary since the user is already familiarized with the structure and function of an online translator like Google Translate or Deepl. That's why less information is best. At the same time, at the end we took the decision to make the predictor a separate feature, to avoid clutter of information for the user, and allow them to use our product in a comfortable and intuitive way. The final design has a "default" option (flip the pronouns to opposite gender) for the user to just start using it right away, and in case they want to change it to neutral pronouns they can always do. So no thinking, just using.
+%%some sketch of what i mean
+
+- The convertor needed to be simple, yet functional. The user needed to be able to use it fast, yet the other options should be easy to discover.
+
+- For the predictor page, that we decided as an add on to our project, I decided to use progressive disclosure.
+
+- The final design has a "default" option (flip the pronouns to opposite gender) for the user to just start using it right away, and in case they want to change it to neutral pronouns they can. So no thinking, just using.
+
+![sketch1](/images/fts/s1.png)
+![sketch2](/images/fts/s2.png)
+![sketch3](/images/fts/s3.png)
+![sketch4](/images/fts/s4.png)
 
 ### Wireframes
-After doing some sketches, and I made some decisions about how I wanted to place the information, I started working on low fidelity prototypes with Figma. This was useful to organize a bit better my thoughts and solidify my decisions until then. I did only one iteration but I worked on it for a long time and changed some stuff. This was useful to identify better the user paths, and layout.
+
+I then started working on low fidelity wireframes with Figma. This was useful to organize a bit better my thoughts and solidify our decisions until then. This was useful to identify better the user paths, and layout.
+
+![wireframes](/images/fts/wireframes.png)
 
 ### Logo
-Creating the logo was a big and important part of this project. I knew the logo needed to represent gender, including female and male but also non binary. It was a big challenge. I needed to express gender in a non binary way, bearing in mind that the norm is still binary. I needed to represent it in a way that is still familiar, recognizable and comfortable to the potential visitor and user of our application, but that at the same time make them feel like something is different and intriguing. I looked for inspiration. I draw, played with my thoughts, and kept drawing. My strategy was quick drawings, not much detail, simple, not much time to think. After many iterations I chose 10 that I later draw again in Figma. I asked my team to vote for their favorite. And that's how we chose our logo.
+
+ The logo needed to represent gender binarity and non binarity at the same time. I needed to represent gender in a way that is still familiar and recognizable to the potential user of our application, but that at the same time make them feel like something is different, intriguing and slightly uncomfortable.
+
+With those thoughts in mind I looked for inspiration. After many iterations I chose 10 that I later draw again in Figma. I asked my team to vote for their favorite. And that's how we chose our logo.
+
+![logos](/images/fts/logosketches.png)
+![voting](/images/fts/logovoting.png)
 
 The circular part I knew the logo needed to have represents fluidity. The final logo then means flexibility, yet inspires trust, and gives a sense of security, of being safe, since it has an abstraction of the gender symbols, which make it recognizable, yet different and intriguing due to its fluty.
 
+![logofinal](/images/fts/logofinal.png)
+
 ### UI Design
-I realized during the research process, that I am designing mainly for young people. At the beginning I wanted to go for a dark style, however I ended up choosing more of a light and modern one because I realized, it represents Flip The Script the best. Also Flip The Script is all about change, about flipping and questioning, educating. That's why the style had to match the brand's purpose, roots, and vision.
 
-I designed for desktop, and partly for mobile.
+The data visualizations were challenging, but I am happy I tried it out. I created our own style, with the multiple objects like the bubbles by trying new things out and orienting me every time with the personas and our goals as Flip The Script.
 
-I am proud for designing the graphics (statistics), since it was challenging, specially the layout of them. I also like that I created our own style, with the multiple objects like the bubbles and black square, by trying new things out and orienting me every time with the personas and our goals as Flip The Script.
+Our application changes colors every time the user ends up in a new page. This simbolizes change and fluidity. Yet the design elements are consistent, giving this feeling of trust and familiarity to the user. This is just another example on how the whole design reflects our goals and vision as Flip The Script.
 
-Our application changes colors every time the user ends up in a new page. This color changing means change, fluty. Yet the design elements like the bubbles, the black square, the buttons, the logo, and the typeface are consistent, giving this feeling of trust and familiarity to the user. This is just another example on how the whole design reflects our goals and vision as Flip The Script, and is comfortable, intriguing and easy to use for the user.
+%%video of the website?
+
+check the Figma prototype:
 
 ### Challenges & Learnings
+
 - Communication is more important than we actually think it is.
+  
 - Although the design process can get messy, finding organization in the disorganization is key for success.
+  
 - Testing is important.
+  
 - Iteration is an incredible tool. Don't get in love with any idea or design.
+  
 - Knowing which questions to ask isn't as easy as it seems.
+  
 - Most of the user decisions are influenced by a lot of factors we wouldn't think they would. Being good at this means being aware of those little details.
+  
+- Learnt a lot on how to make better surveys.

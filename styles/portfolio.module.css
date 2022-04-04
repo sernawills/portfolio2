@@ -74,11 +74,11 @@
           margin-top: 0;
       }
       .portfolioItemLeft {
-          height: 25%;
+          height: 35%;
           width: 100%;
       }
       .portfolioItemRight {
-        height: 75%;
+        height: 65%;
         width: 100%;
         padding-top: 0
     }

@@ -25,7 +25,7 @@ function Portfolio({ allItemsData }) {
                             <div className={styles.portfolioItem} key={item.id}>
                                 <div className={styles.portfolioItemLeft}>
                                     <Image
-                                        src={`/images/${item.cover.cover_image}`}
+                                        src={item.cover.cover_image}
                                         layout='fill'
                                         objectFit="cover"
                                     />

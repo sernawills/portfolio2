@@ -2,7 +2,7 @@
 cover:
     title: UXAI - Explainable AI 
     description: An interface to empower users during the usage of AI technologies. A research and design project made for my application to my current university. 
-    cover_image: xai_cover.png
+    cover_image: /images/xai/xai_cover.png
     tags: 
         - XUAI 
         - Research
