@@ -1,6 +1,6 @@
 import { getAllItemIDs, getFullItemData } from '../../lib/get-portfolio-items'
 import json2next from '../../lib/markdown2react/json2next'
-import Image from "next/image";
+import Image from "../../lib/markdown2react/components/Image";
 import styles from '../../styles/utils.module.css'
 
 export async function getStaticProps({ params }) {
@@ -18,20 +18,15 @@ export async function getStaticPaths() {
 export default function Post({ itemData }) {
   return (
     <>
-        <div className="cover">
-            <Image 
-                src={itemData.cover.cover_image}
-                layout='fill'
-                objectFit="cover"
-            />
-            <div className='coverContainer'> 
-                <div className='coverTitle'>
-                    <h1 className={`${styles.homeTitle} ${styles.marginLeft}`}>{itemData.cover.title} </h1>
-                    <p className={styles.descriptionText}>{itemData.cover.description}</p>
-                </div>
-            </div>
+        <div className="coverImage" style={{
+          backgroundImage: `url(${itemData.cover.cover_image})`
+        }}>
+        </div>   
+
+        <div className='coverTitle'>
+            <h1 className={`${styles.homeTitle} ${styles.marginLeft}`}>{itemData.cover.title} </h1>
+            <p className={styles.descriptionText}>{itemData.cover.description}</p>
         </div>
-        
 
             {/* OVERVIEW */}
 

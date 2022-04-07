@@ -9,7 +9,6 @@ import Image from 'next/image'
 
 export async function getStaticProps() {
     const allItemsData = getAllItemPreviewData()
-    console.log(allItemsData)
     return {
       props: {
         allItemsData

@@ -1,7 +1,8 @@
 import { useState } from "react";
-import Image from "next/image";
+import Image from "../lib/markdown2react/components/Image";
 import Link from 'next/link';
 import Head from 'next/head'
+
 // import ReorderIcon from '@mui/icons-material/Reorder';
 
 function Navbar() {
@@ -20,29 +21,13 @@ function Navbar() {
                 content="Luciana Serna Wills"
                 />
             </Head>
-            <div className="navbarContainer">
-                <div className="navbar">
-                    <div className="leftSide" id={openLinks ? "open" : "close"}>
-                        <Link href="/"><a className="logo"><Image src="/images/logo.png" layout="fill" objectFit="contain" /></a></Link>
-                        <div className="hiddenLinks">
-                            <Link href="/"><a className="logo"><Image src="/images/logo.png" layout='fill' objectFit="contain" /></a></Link>
-                            <Link href="/portfolio"> PORTFOLIO </Link>
-                            <Link href="/about"> ABOUT </Link>
-                            <Link href="/play"> PLAY </Link>
-                            <Link href="/contact"> CONTACT </Link>
-                        </div>
-                    </div>
-                    <div className="rightSide">
-                        <Link href="/portfolio"> PORTFOLIO </Link>
-                        <Link href="/about"> ABOUT </Link>
-                        <Link href="/play"> PLAY </Link>
-                        <Link href="/contact"> CONTACT </Link>
-                        <button onClick={toggleNavbar}>
-                            icon missing :({/* <ReorderIcon /> */}
-                        </button>
-                    </div>
-                </div>
-            </div>    
+            <ul className="navbarContainer">
+                <li className="navbarButtons" id="logo"><Link href="/"><Image src="/images/logo.png"/></Link></li>
+                <li className="navbarButtons"><Link href="/portfolio"> PORTFOLIO </Link> </li>
+                <li className="navbarButtons"><Link href="/about"> ABOUT </Link> </li>
+                <li className="navbarButtons"><Link href="/play"> PLAY </Link></li>  
+                <li className="navbarButtons"><Link href="/contact"> CONTACT </Link></li>
+            </ul>
         </>
     )
 }
