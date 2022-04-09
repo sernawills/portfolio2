@@ -62,7 +62,9 @@ The main insights we got are:
 With help of the personas I also created scenarios. Same as with the personas, I created them at first to help me articulate the questions of the survey and interview. And after the findings, I created new scenarios. I can say, the user research phase was definitely an iterative process.
 
 ![persona1](/images/fts/persona1.png)
+
 ![persona2](/images/fts/persona2.png)
+
 ![persona3](/images/fts/persona3.png)
 
 ### Creating requirements and strategy

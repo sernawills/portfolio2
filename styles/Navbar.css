@@ -1,12 +1,12 @@
 .navbarContainer {
     height: 100%;
-    background-color: #f9f9f7;
     position: fixed;
     position: -webkit-fixed;
     top: 0;
     right: 0;
     z-index: 2;
     margin: 3rem;
+    width: 6.563rem;
 }
 
   .navbarButtons {
@@ -17,25 +17,25 @@
   
   #logo {
     margin-bottom: 3rem;
+    cursor: pointer;
   }
   
   .navbarButtons a {
-    color: #222;
+    color: var(--black);
     text-decoration: none;
     padding-right: 6px;
     padding-left: 6px;
     border: 2px solid rgba(0, 0, 0, 0);
   }
 
-  .navbar a:hover{
-      border: 2px solid #aeffd8;
-      color: rgb(195, 196, 255);
+  .navbarButtons :hover{
+      background-color: var(--mainColor);
   }
   
   .navbar .rightSide button {
     background-color: transparent;
     border: none;
-    color: #272727;
+    color: var(--black);
     cursor: pointer;
   }
   

@@ -16,31 +16,30 @@
   }
 
   .button {
-    color: #6320ee;
     cursor: pointer;
     justify-content: center;
     background-color: transparent;
     height: 50px;
     width: 180px;
-    color: #121212;
+    color: var(--black);
     text-decoration: none;
     font-size: 20px;
-    border: 2px solid #6320ee;
+    border: 2px solid var(--mainColor);
     font-weight: bold;
   }
 
   .button:hover {
     background-color: transparent;
     cursor: pointer;
-    border: 2px solid #aeffd8;
+    border: 2px solid var(--mainColor);
     transition: 0.1s ease-in;
   }
 
   #about {
     text-decoration: underline;
-    text-decoration-color: #aeffd8;
+    text-decoration-color: var(--mainColor);
     text-decoration-style: wavy;
-    color: #211a1d;
+    color: var(--black);
     padding-right: 2px;
     padding-left: 2px;
   }

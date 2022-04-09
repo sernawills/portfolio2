@@ -13,7 +13,7 @@ import Footer from '../components/Footer';
 function MyApp({ Component, pageProps }) {
   return (<>
     <Navbar {...pageProps} />
-    <Component {...pageProps} />
+    <div className='content'> <Component {...pageProps} /> </div>
     <Footer {...pageProps} />
   </>);
 }

@@ -19,6 +19,8 @@ export async function getStaticProps() {
 function Portfolio({ allItemsData }) {
     return(
         <div className={styles.portfolioContainer}>
+            <h1 className={utilStyles.homeTitle}>Luciana's Projects</h1>
+            <p>Here's a selection of some projects I have worked on</p>
                 {allItemsData.map((item) => (
                         <Link href={`/portfolio-posts/${item.id}`}>
                             <div className={styles.portfolioItem} key={item.id}>

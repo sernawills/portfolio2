@@ -18,6 +18,7 @@ export async function getStaticPaths() {
 export default function Post({ itemData }) {
   return (
     <>
+          
         <div className="coverImage" style={{
           backgroundImage: `url(${itemData.cover.cover_image})`
         }}>
