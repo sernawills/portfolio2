@@ -1,5 +1,5 @@
 import { getAllItemIDs, getFullItemData } from '../../lib/get-portfolio-items'
-import json2next from '../../lib/markdown2react/json2next'
+import { json2react } from '../../lib/markdown2react/json2react'
 import Image from "../../lib/markdown2react/components/Image";
 import styles from '../../styles/utils.module.css'
 
@@ -25,7 +25,7 @@ export default function Post({ itemData }) {
         </div>   
 
         <div className='coverTitle'>
-            <h1 className={`${styles.homeTitle} ${styles.marginLeft}`}>{itemData.cover.title} </h1>
+            <h1 className={`${styles.pageTitle} ${styles.marginLeft}`}>{itemData.cover.title} </h1>
             <p className={styles.descriptionText}>{itemData.cover.description}</p>
         </div>
 
@@ -48,7 +48,7 @@ export default function Post({ itemData }) {
             {/* SECTIONS */}
         <div className="portfolioTemplate">
             <div className="sectionsContainer">
-                { json2next(itemData.bodyContent, { styles }) }
+                { json2react(itemData.bodyContent, { styles }) }
             </div>
         </div>
     </>

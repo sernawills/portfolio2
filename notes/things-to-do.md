@@ -21,8 +21,7 @@
 - home page -> maybe some animation or something 
 - play page -> similar to project page 
 - contact page
-- adding my portfolio page to the homepage 
-
+- adding my portfolio page to the homepage
 
 # ideas for icons 
 ![icons](https://image.shutterstock.com/image-vector/minimal-set-hamburger-menu-flat-600w-1501430735.jpg)

@@ -1,17 +1,30 @@
-.entryTitle {
+.pageTitle {
+    font-family: Poppins, sans-serif;
+    font-size: 4rem;
+    margin: 0;
+    text-align: left;
+}
+.homeTitle {
+    font-family: Poppins, sans-serif;
+    font-size: 4.375rem;
+    margin: 0px;
+    text-align: left;
+}
+
+.itemTitle {
     font-family: Nunito Sans, sans-serif;
     font-size: 2em;
     margin-bottom: 0.2em;
     line-height: 1.2;
-    margin-left: 0px;
+    margin-left: 0;
     font-weight: 800;
-   }
-.homeTitle {
-    font-family: Poppins, sans-serif;
-    font-size: 70px;
-    margin: 0px;
-    text-align: left;
 }
+
+.pageSubtitle {
+    margin: 0;
+    margin-bottom: 5rem;
+    font-size: 1.4rem;
+}   
 
 .subTitle {
     margin: 0px;
@@ -20,84 +33,57 @@
     line-height: 40px;
 }
 
-.heading2Xl {
-    font-size: 2.5rem;
-    line-height: 1.2;
-    font-weight: 800;
-    letter-spacing: -0.05rem;
-    margin: 1rem 0;
-  }
-  
-  .headingXl {
-    font-size: 2rem;
-    line-height: 1.3;
-    font-weight: 800;
-    letter-spacing: -0.05rem;
-    margin: 1rem 0;
-  }
-  
-  .headingLg {
-    font-size: 1.5rem;
-    line-height: 1.4;
-    margin: 1rem 0;
-  }
-  
-  .headingMd {
-    font-size: 1.2rem;
-    line-height: 1.5;
-  }
+.bodyText {
+    font-family:'Poppins', Arial, Helvetica, sans-serif;
+    letter-spacing: 0.1em;
+    line-height: 1.7px;
+    font-size: 20px;
+}
 
-  .bodyText {
-      font-family:'Poppins', Arial, Helvetica, sans-serif;
-      letter-spacing: 0.1em;
-      line-height: 1.7px;
-      font-size: 20px;
-  }
+.pTags {
+    margin-bottom: 28px;
+    margin-top: 0px;
+    line-height: 1.3em;
+}
 
-  .pTags {
-      margin-bottom: 28px;
-      margin-top: 0px;
-      line-height: 1.3em;
-  }
+.overviewTags {
+    text-transform: uppercase;
+    font-size: 0.85rem;
+    color: gray;
+}
 
-  .overviewTags {
-      text-transform: uppercase;
-      font-size: 0.85rem;
-      color: gray;
-  }
-  
-  .borderCircle {
-    border-radius: 9999px;
-  }
-  
-  .colorInherit {
-    color: inherit;
-  }
-  
-  .padding1px {
-    padding-top: 1px;
-  }
-  
-  .list {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-  }
-  
-  .listItem {
-    margin: 0 0 1.25rem;
-  }
-  
-  .lightText {
-    color: #666;
-  }
+.borderCircle {
+border-radius: 9999px;
+}
 
-  .marginLeft {
-      margin-left: 1rem;
-  }
+.colorInherit {
+color: inherit;
+}
 
-  .descriptionText {
-      font-size: 1.6rem;
-      text-align: left;
-      margin-left: 1rem;
-  }
+.padding1px {
+padding-top: 1px;
+}
+
+.list {
+list-style: none;
+padding: 0;
+margin: 0;
+}
+
+.listItem {
+margin: 0 0 1.25rem;
+}
+
+.lightText {
+color: #666;
+}
+
+.marginLeft {
+    margin-left: 1rem;
+}
+
+.descriptionText {
+    font-size: 1.6rem;
+    text-align: left;
+    margin-left: 1rem;
+}

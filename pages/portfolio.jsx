@@ -19,8 +19,8 @@ export async function getStaticProps() {
 function Portfolio({ allItemsData }) {
     return(
         <div className={styles.portfolioContainer}>
-            <h1 className={utilStyles.homeTitle}>Luciana's Projects</h1>
-            <p>Here's a selection of some projects I have worked on</p>
+            <h1 className={utilStyles.pageTitle}>Luciana's Projects</h1>
+            <p className={utilStyles.pageSubtitle}>Here's a selection of some projects I have worked on</p>
                 {allItemsData.map((item) => (
                         <Link href={`/portfolio-posts/${item.id}`}>
                             <div className={styles.portfolioItem} key={item.id}>
@@ -32,7 +32,7 @@ function Portfolio({ allItemsData }) {
                                     />
                                 </div>
                                 <div className={styles.portfolioItemRight}>
-                                    <h1 className={utilStyles.entryTitle}> {item.cover.title} </h1>
+                                    <h1 className={utilStyles.itemTitle}> {item.cover.title} </h1>
                                     <p className={utilStyles.pTags}> {item.cover.description} </p>
                                     <div className={`${styles.itemTagsContainer} ${utilStyles.overviewTags}`}> {item.cover.tags.map(tag =>
                                         <span className={styles.itemTags}>{tag}</span>
