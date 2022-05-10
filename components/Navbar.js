@@ -23,7 +23,7 @@ function Navbar() {
             </Head>
             
             <ul className="navbarContainer">
-                <li className="navbarButtons" id="logo"><Link href="/"><a><Image src="/images/logo.png"/></a></Link></li>
+                <li className="navbarButtons" id="logo"><Link href="/"><a><Image src="/images/logo.png" alt="logo"/></a></Link></li>
                 <li className="navbarButtons"><Link href="/portfolio"> PROJECTS </Link> </li>
                 <li className="navbarButtons"><Link href="/about"> ABOUT </Link> </li>
                 <li className="navbarButtons"><Link href="/play"> PLAY </Link></li>  

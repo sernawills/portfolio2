@@ -4,8 +4,8 @@ function FilteringTabs({filteringTab, filter}) {
     return (
         <div className="filteringTabs">
             {
-                filteringTab.map((category)=>{
-                    return <span onClick={()=> filter(category)} className="filteringTab">{category}</span>
+                filteringTab.map((category, index)=>{
+                    return <span onClick={()=> filter(category)} className="filteringTab" key={index}>{category}</span>
                 })
             }
         </div>

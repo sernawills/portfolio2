@@ -33,8 +33,8 @@ export default function Post({ itemData }) {
 
         <div className="overviewContainer">
             <div className="overviewBox">
-                    {itemData.overview.box.box_items.map(({heading, content}) =>
-                        <div className='overviewSubBox'>
+                    {itemData.overview.box.box_items.map(({heading, content}, index) =>
+                        <div className='overviewSubBox' key={index}>
                             <div className="overviewBoxHeading">
                                 {heading}
                             </div>

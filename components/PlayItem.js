@@ -2,14 +2,13 @@ import React from 'react';
 
 function PlayItem( {playItem} ) {
     return(
-        playItem.map((item) => {
-            return (
-            <div className='playItem'>
+        playItem.map((item, index) => 
+            <div className='playItem' key={index}>
                 <div style={{ backgroundImage:  `url(${item.image})`  }}>  </div>
                 <h1> {item.name} </h1>
                 <p> {item.description} </p>
             </div>
-        )})
+        )
             
     )
 }

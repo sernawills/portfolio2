@@ -66,7 +66,7 @@ After analysing the results of the survey, we decided to focus on those three re
 
 ### Cultural Probes
 
-The next step was to design cultural probes. We used this method as a way to get closer, build empathy and immerse into the life of our target group. And also as a way to gain inspiration. 
+The next step was to design cultural probes. We used this method as a way to get closer, build empathy and immerse into the life of our target group. And also as a way to gain inspiration.
 
 After a few iteration rounds, the help from our professor, coach, and fellow participants of the course, we created the structure of the cultural probes.
 
