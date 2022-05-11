@@ -15,6 +15,8 @@ overview:
               content: Application Project for Interface Design Bachelor
             - heading: DURATION
               content: 8 weeks
+            - heading: DATE 
+              content: March - April 2021
             - heading: CHALLENGE
               content: Design an interface with either AI as a topic, using the approach of problem solving, speculating, design research or artistic practice.  
             - heading: IDEA 
@@ -73,20 +75,23 @@ The concept sounds ambitious (for this project we didn't have limits on how feas
 It was important that the tool is intuitive, and graphic. So that the user can grasp as much information as possible in as little time as possible. The tool should also provide as much real data as possible through data visualizations.
 
 ![wireframes](/images/xai/xai_paperwireframesmed.png)
+
 ![wireframes](/images/xai/xai_paperwireframessm.png)
 
-After having a basic structure through paper wireframes, I went ahead and created Figma wireframes for each of the use cases. 
+After having a basic structure through paper wireframes, I went ahead and created Figma wireframes for each of the use cases.
 
 ![figmawireframes-sm](/images/xai/xai_wireframessm.png)
+
 ![figmawireframes-med](/images/xai/xai_wireframesmed.png)
 
 ## — USE CASES & UI
 
 To create empathy, prototype and also to explain the concept to my audience I created personas Britney and Md.Rodriguez
-![personas](/public/images/xai/personas.png)
+
+![personas](/images/xai/personas.png)
 
 ### Social Media App: Why am I seeing this?
- 
+
 Brittney is scrolling trhough social media when she sees an add about a laser device to remove body hair from home. She feels a little bit freaked out because she was talking about this with her friends a couple days ago and she has been researching about it in the web. She then taps on the ad once and sees a graphic interface that shows her more information about why she is seeing that ad. She realizes it's mostly because of her websearch and location.
 
 [**Link to Prototype**](https://www.figma.com/proto/fayNazn9WiG2msZdxPuFfx/instagram-Copy?page-id=0%3A1&node-id=188%3A1307&viewport=325%2C48%2C0.11&scaling=scale-down&starting-point-node-id=188%3A1307)

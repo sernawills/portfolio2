@@ -28,6 +28,7 @@ overview:
 ### Why Sketch2Frame?
 
 After brainstorming for ideas and problems to tackle the challenge, we realized we find AI tools interesting and wanted to challenge the idea of "AI is going to replace designers" and stand more to: "AI can empower designers". We decided on this idea, because we found ourselves starting paper wireframes which are incredible useful and won't want to skip that step, and then having to transfer those into Figma frames. That step seemed to be a bit tedious and not that fun sometimes. So we came up with the idea of an AI and AR (Augmented Reality) tool that scans paper wireframes and exports them into Figma frames.
+
 ![ideas](/images/s2f/s2f_ideas.png) vertical
 
 ## — THE PROCESS
@@ -53,7 +54,9 @@ We started to decide which screens we needed to design first in order to have an
 ### First round of feedback: Userflow
 
 After the first round of feedback, we started working on the onboarding. This was necessary to introduce the user to the app, since is not a conventional app, so the user needs some sort of short guiding in order to use the app. Up until now, after the login screen the user came immediately to the action page were they take the picture. However, this was also pointed out during the feedback. We realized that although we created an user flow to help us better structure the arquitecture of the app from the beginning, there were some spots were it wasn't completely clear how the user gets from one screen to the next. So we decided to improve this which lead us to change the screen right after the onboarding to be the home screen, rather than the take photo screen.
+
 ![changes](/images/s2f/s2f_changes.png) horizontal
+
 We also updated our userflow which at the end looked like this:
 
 ![userflow](/images/s2f/s2f_userflow.png) horizontal
