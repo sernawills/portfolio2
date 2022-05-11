@@ -31,6 +31,26 @@
     line-height: 40px;
 }
 
+.outlinedText {
+    text-shadow:
+    -1px -1px 0 #000,
+     0   -1px 0 #000,
+     1px -1px 0 #000,
+     1px  0   0 #000,
+     1px  1px 0 #000,
+     0    1px 0 #000,
+    -1px  1px 0 #000,
+    -1px  0   0 #000;
+    color: var(--white);
+}
+
+.offsetUnderline {
+    background-image: linear-gradient(180deg, transparent 65%, var(--mainColor) 0);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: fit-content;
+}
+
 .bodyText {
     font-family: var(--mainFont);
     letter-spacing: 0.1em;

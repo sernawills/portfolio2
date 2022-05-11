@@ -25,7 +25,7 @@ export default function Post({ itemData }) {
         </div>   
 
         <div className='coverTitle'>
-            <h1 className={`${styles.pageTitle} ${styles.paddingTop}`}>{itemData.cover.title} </h1>
+            <h1 className={`${styles.pageTitle} ${styles.paddingTop} ${styles.outlinedText}`}>{itemData.cover.title}</h1>
             <p className={styles.descriptionText}>{itemData.cover.description}</p>
         </div>
 

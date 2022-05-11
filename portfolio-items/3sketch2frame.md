@@ -71,6 +71,26 @@ At the end of the second week we got the feedback that it wasn't completely clea
 
 ## — FINAL UI
 
+![screen2](/images/s2f/2.png)
+![screen3](/images/s2f/3.png)
+![screen4](/images/s2f/4.png)
+![screen5](/images/s2f/5.png)
+![screen6](/images/s2f/6.png)
+![screen7](/images/s2f/7.png)
+![screen8](/images/s2f/8.png)
+![screen9](/images/s2f/9.png)
+![screen10](/images/s2f/10.png)
+![screen11](/images/s2f/11.png)
+![screen12](/images/s2f/12.png)
+![screen13](/images/s2f/13.png)
+![screen14](/images/s2f/14.png)
+![screen15](/images/s2f/15.png)
+![screen16](/images/s2f/16.png)
+![screen17](/images/s2f/17.png)
+![screen18](/images/s2f/18.png)
+![screen19](/images/s2f/19.png)
+![screen20](/images/s2f/20.png)
+
 ### What we presented and learnt
 
 I learnt that reading and carefully applying the guidelines is of big help. However applying them blindly won't necessarily guarantee a good or intuitive design, since as the name said they are *guidelines* and at the end applying them wisely depends on the designers. I also realized that although working with design systems is of big help, sometimes when the changes need to be done quickly and involve more than changing the font or size of a group of objects, it might be easier to not always use them. Especially in this case where the communication was smooth and constant.

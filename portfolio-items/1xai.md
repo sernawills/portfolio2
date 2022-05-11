@@ -80,10 +80,6 @@ It was important that the tool is intuitive, and graphic. So that the user can g
 
 After having a basic structure through paper wireframes, I went ahead and created Figma wireframes for each of the use cases.
 
-![figmawireframes-sm](/images/xai/xai_wireframessm.png)
-
-![figmawireframes-med](/images/xai/xai_wireframesmed.png)
-
 ## — USE CASES & UI
 
 To create empathy, prototype and also to explain the concept to my audience I created personas Britney and Md.Rodriguez
