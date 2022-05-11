@@ -16,11 +16,11 @@ overview:
             - heading: TEAM
               content: Three other participants from TechLabs from Web Development and Data Science
             - heading: DURATION 
-              content: 1 month 
+              content: About 5 months of course, 1 month of project
             - heading: CHALLENGE
               content: Participants pitched different project ideas to choose from. This was one of the ideas from a participant and I voted for this one 
             - heading: IDEA
-              content: A tool that allows users to translate any given text into gender neutral, or to flip the pronouns of the text. 
+              content: A tool that allows users to translate any given text into gender neutral, or to flip the pronouns of the text 
 
 ---
 ## PROCESS
@@ -31,7 +31,7 @@ The written information in the internet can be heavily male gendered and/or bias
 
 ### The Solution
 
-Offering the user a platform with a tool to input text, and get a version that is neutral or with the pronouns flipped. Also a predictor to know how gender biased an article might be based on the source, author, etc.
+Offering the user a [platform](https://www.figma.com/proto/XDxrsmeNLMoiQI1L9NBD7N/ui-FTS?page-id=0%3A1&node-id=1%3A2&viewport=325%2C48%2C0.05&scaling=scale-down&starting-point-node-id=1%3A2) with a tool to input text, and get a version that is neutral or with the pronouns flipped. Also a predictor to know how gender biased an article might be based on the source, author, etc.
 
 ## Building Empathy
 
@@ -81,24 +81,22 @@ Knowing which requirements we have and also what's the most and least important 
 
 Based on the information gathered during the user research phase and our opportunity board, I started to prioritize. For example the **pronoun convertor** is of big importance for the user, as well as for us. Therefore this is going to be our main feature and it needed to be present in a way that caught the attention of the user, and **give them a call to action**, at all times.
 
-%%maybe creenshot of the button up where there is the call to action.
-
 During the process, I asked myself the following guiding questions:
 
 - What is the visitor most interested in? What is the most important/relevant of the project and also for the participants of the survey?
-  *The flipping the pronouns of the texts.*
+  - The flipping the pronouns of the texts.
 
 - What would the content be?
-  *The flipping feature (translator), the statistics, information about why this is important, and about us.*
+  - The flipping feature (translator), the statistics, information about why this is important, and about us.
 
 - How long is it? How and where can it be presented?
-  *Progressive disclosure. So start with the z layout, in the home page you have as little information as possible that allows you to take the action that the user is most interested in: so the flipping feature.*
+  - Progressive disclosure. So start with the z layout, in the home page you have as little information as possible that allows you to take the action that the user is most interested in: so the flipping feature.
 
 - How do you structure it?
 
 For this answer I tried doing a decision path diagram.
 
-![arquitecture](/images/fts/arquitecture.png)
+## the user interface
 
 ### Making UI Decisions
 
@@ -114,8 +112,6 @@ I also created an information architecture plan, as well as the user paths which
   
 - The **order of the menu items** needed to be based on the **priority features for the user**. The least relevant ones were placed in the middle of the menu bar, since elements in the middle don't get as much attention.
 
-%%some sketch of what i mean
-
 - The convertor needed to be simple, yet functional. The user needed to be able to use it fast, yet the other options should be easy to discover.
 
 - For the predictor page, that we decided as an add on to our project, I decided to use progressive disclosure.
@@ -130,8 +126,6 @@ I also created an information architecture plan, as well as the user paths which
 ### Wireframes
 
 I then started working on low fidelity wireframes with Figma. This was useful to organize a bit better my thoughts and solidify our decisions until then. This was useful to identify better the user paths, and layout.
-
-![wireframes](/images/fts/wireframes.png)
 
 ### Logo
 
@@ -152,9 +146,7 @@ The data visualizations were challenging, but I am happy I tried it out. I creat
 
 Our application changes colors every time the user ends up in a new page. This simbolizes change and fluidity. Yet the design elements are consistent, giving this feeling of trust and familiarity to the user. This is just another example on how the whole design reflects our goals and vision as Flip The Script.
 
-%%video of the website?
-
-check the Figma prototype:
+**Checkout a prototype [here](https://www.figma.com/proto/XDxrsmeNLMoiQI1L9NBD7N/ui-FTS?page-id=0%3A1&node-id=1%3A2&viewport=325%2C48%2C0.05&scaling=scale-down&starting-point-node-id=1%3A2)**
 
 ### Challenges & Learnings
 

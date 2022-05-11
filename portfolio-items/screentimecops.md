@@ -94,7 +94,7 @@ After some iterations on the design of the cultural probes, we decided to work w
 
 ### Getting Participants
 
-When we were done with the cultural probes we realized that finding participants was imposing a bigger challenge than we thought. A lot of people participated in a 3 minute survey, but finding participants of the target group for the cultural probes was no easy task. 
+When we were done with the cultural probes we realized that finding participants was imposing a bigger challenge than we thought. A lot of people participated in a 3 minute survey, but finding participants of the target group for the cultural probes was no easy task.
 
 In fact after talking to our coach, other participants and asking each of our personal circles, we couldn't find any participant of the target group. Was also bad timing since at the time the restrictions surrounding the corona pandemic were in surge and so did the numbers of infections.
 
@@ -131,6 +131,9 @@ At this point we had some ideas on which service we wanted to prototype at the e
 5. Rating of the ideas
 6. Choosing the most voted ideas to further develop
 
+![ideen generiert](/images/screentimecops/ideengeneriert.png)
+![ideen generiert](/images/screentimecops/endideen.png)
+
 #### **Part 2**
 
 1. Introduction of the concept of idea napkin
@@ -140,15 +143,13 @@ At this point we had some ideas on which service we wanted to prototype at the e
 
 After the first half of the workshop we gathered a lot of ideas from all of us 5 participants in total.
 
-
-
 At the end of the ideation/prototyping workshop we had a much clearer direction, two ideas to choose from and four prototypes. We met the next day to discuss the direction we wanted to take. We decided to go for the idea "Screentime Cops".
+
+![ideen generiert](/images/screentimecops/ideanapkin.png)
 
 ### Screentime Cops: Digital Solution For Internet Addiction?
 
-Screentime Cops is conceptualized as a social media application, where the user gives their friends certain control and data over their online behaviour, in order to decrease the time spent online. The social interaction component should be at the core, since we realized early on in the process, that it is a key component. The following presentation shows how Screentime Cops helps the user reduce their online time:
-
-![scenarios](/images/screentimecops/sb1.png)
+Screentime Cops is conceptualized as a social media application, where the user gives their friends certain control and data over their online behaviour, in order to decrease the time spent online. The social interaction component should be at the core, since we realized early on in the process, that it is a key component. [This presentation](https://www.figma.com/proto/wmG6Fo6qzadtZhKaEGI4eZ/service-design-final?page-id=201%3A147&node-id=201%3A196&viewport=325%2C48%2C0.18&scaling=min-zoom) shows how Screentime Cops helps the user reduce their online time:
 
 ### Learnings
 

@@ -7,6 +7,7 @@
     z-index: 2;
     margin: 3rem;
     width: 6.563rem;
+    padding-right: 4rem;
 }
 
   .navbarButtons {
@@ -19,7 +20,41 @@
     margin-bottom: 3rem;
     cursor: pointer;
   }
+
+  .navigation {
+      width: 100vh;
+  }
   
+  .menuButton {
+    text-shadow:
+    -1px -1px 0 #000,
+     0   -1px 0 #000,
+     1px -1px 0 #000,
+     1px  0   0 #000,
+     1px  1px 0 #000,
+     0    1px 0 #000,
+    -1px  1px 0 #000,
+    -1px  0   0 #000;
+    color: var(--mainColor);
+    border: 0;
+    height: 3rem;
+    width: 3rem;
+    padding: 0.5rem;
+    background-color: var(--mainColor);
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+    position: absolute;
+    top: 5%;
+    right: 25px;
+    transform: translateY(-50%);
+    display: none;
+    font-size: 2rem;
+  }
+
+  .menuButton:hover {
+    background-color: var(--mainColor);
+  }
+
   .navbarButtons a {
     color: var(--black);
     text-decoration: none;
@@ -32,67 +67,36 @@
       background-color: var(--mainColor);
   }
   
-  .navbar .rightSide button {
-    background-color: transparent;
-    border: none;
-    color: var(--black);
-    cursor: pointer;
-  }
-  
-  .navbar .rightSide svg {
-    font-size: 40px;
-  }
-  
-  .navbar #open {
-    padding-left: 0px;
-  }
-  .navbar #open img {
-    display: none;
-  }
-  
-  .navbar #close img {
-    display: inherit;
-  }
-  
-  .navbar #open .hiddenLinks {
-    display: inherit;
-    margin-left: 30px;
-  }
-  
-  .navbar #close .hiddenLinks {
-    display: none;
-  }
-  
-  .navbar #open a {
-    width: 70px;
-    margin: 5px;
-  }
-  @media only screen and (max-width: 900px) {
-    .navbar .rightSide a {
-      width: 70px;
+
+  @media only screen and (max-width: 768px) {
+    .menuButton {
+        display: block;
+        position: -webkit-fixed;
+        position: fixed;
+        z-index: 2;
     }
-  }
-  
-  @media only screen and (max-width: 600px) {
-    .navbar .rightSide a {
-      display: none;
+    .navbarContainer {
+        width: 100vw;
     }
-  
-    .navbar .rightSide {
-      justify-content: flex-end;
+    .navbarContainer ul {
+        display: none;
+        position: absolute;
+        top: 5%;
+        left: 0;
+        flex-direction: column;
+        width: 100%;
+        height: 100%;
+        background-color: var(--white);
+      }
+    .navbarContainer.expanded ul {
+        display: block;
     }
-  
-    .navbar .rightSide button {
-      display: inherit;
-    }
-  }
-  
-  @media only screen and (min-width: 600px) {
-    .navbar .rightSide button {
-      display: none;
-    }
-  
-    .hiddenLinks {
-      display: none;
+    .navbarContainer li {
+        text-align: center;
+        margin-bottom: 1rem;
+     } 
+
+    .navbarContainer li::selection {
+        background-color: var(--mainColor);
     }
   }

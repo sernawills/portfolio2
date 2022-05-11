@@ -11,7 +11,7 @@ function About() {
                     Hi, I&apos;m Luciana
                 </h1>
                 <p>
-                    I am a UX Designer to be currently studying Interface Design at the University of Applied Sciences of Potsdam, in Germany. Before that I studied IT-Systems-Engineering, and during a lecture at my previous university is when I fall in love with design. 
+                    This page is currently under construction. Will be done soon, I appreciate your interest!
                 </p>
             </div>
         </div>

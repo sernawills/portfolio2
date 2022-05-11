@@ -6,11 +6,7 @@ import Head from 'next/head'
 // import ReorderIcon from '@mui/icons-material/Reorder';
 
 function Navbar() {
-    const [openLinks, setOpenLinks] = useState(false);
-
-    const toggleNavbar = () => {
-        setOpenLinks(!openLinks)
-    };
+    const [isNavExpanded, setIsNavExpanded] = useState(false)
 
     return (
         <>
@@ -22,14 +18,21 @@ function Navbar() {
                 />
             </Head>
             
-            <ul className="navbarContainer">
-                <li className="navbarButtons" id="logo"><Link href="/"><a><Image src="/images/logo.png" alt="logo"/></a></Link></li>
-                <li className="navbarButtons"><Link href="/portfolio"> PROJECTS </Link> </li>
-                <li className="navbarButtons"><Link href="/about"> ABOUT </Link> </li>
-                <li className="navbarButtons"><Link href="/play"> PLAY </Link></li>  
-                <li className="navbarButtons"><Link href="/contact"> CONTACT </Link></li>
-            </ul>
-        </>
+            <div className="navigation">
+                <button className="menuButton" onClick={() => {setIsNavExpanded(!isNavExpanded)}}>
+                  +
+                </button>
+
+                <div className={isNavExpanded ? "navbarContainer expanded" : "navbarContainer"}>
+                    <ul>
+                        <li className="navbarButtons" id="logo"><Link href="/" >HOME</Link></li>
+                        <li className="navbarButtons"><Link href="/portfolio"> PROJECTS </Link> </li>
+                        <li className="navbarButtons"><Link href="/about"> ABOUT </Link> </li>
+                        <li className="navbarButtons"><Link href="/play"> PLAY </Link></li>  
+                    </ul>
+                </div>
+            </div>
+        </>    
     )
 }
 

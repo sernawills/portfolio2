@@ -25,6 +25,7 @@ function Play() {
             <h1 className='playTitle'>
                 Play
             </h1>
+            <p>This page is currently under construction. Will be done soon, I appreciate your interest!</p>
             <FilteringTabs filteringTab={filteringTabs} filter={filter}/>
             <PlayItem playItem={playItem}/>
         </div>
