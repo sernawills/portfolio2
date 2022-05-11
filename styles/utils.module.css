@@ -1,18 +1,16 @@
 .pageTitle {
-    font-family: Poppins, sans-serif;
     font-size: 4rem;
     margin: 0;
     text-align: left;
 }
 .homeTitle {
-    font-family: Poppins, sans-serif;
     font-size: 4.375rem;
     margin: 0px;
     text-align: left;
 }
 
 .itemTitle {
-    font-family: Nunito Sans, sans-serif;
+    font-family: var(--mainFont);
     font-size: 2em;
     margin-bottom: 0.2em;
     line-height: 1.2;
@@ -34,7 +32,7 @@
 }
 
 .bodyText {
-    font-family:'Poppins', Arial, Helvetica, sans-serif;
+    font-family: var(--mainFont);
     letter-spacing: 0.1em;
     line-height: 1.7px;
     font-size: 20px;
@@ -82,8 +80,16 @@ color: #666;
     margin-left: 1rem;
 }
 
+.paddingTop {
+    margin-top: 3rem;
+}
+
+.paddingBottom {
+    padding-bottom: 3rem;
+}
+
 .descriptionText {
     font-size: 1.6rem;
     text-align: left;
-    margin-left: 1rem;
+    margin-top: 0.5rem;
 }

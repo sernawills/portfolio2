@@ -2,12 +2,11 @@
     max-width: 1000px;
     margin: auto;
     width: 100%;
-    height: 100vh;
+    height: 96vh;
     display: flex;
     justify-content: center;
     align-items: left;
     flex-direction: column;
-    font-family: 'Poppins', "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   }
   
   .headerContainer  {
@@ -36,12 +35,25 @@
   }
 
   #about {
-    text-decoration: underline;
-    text-decoration-color: var(--mainColor);
-    text-decoration-style: wavy;
-    color: var(--black);
+    text-shadow:
+    -1px -1px 0 #000,
+     0   -1px 0 #000,
+     1px -1px 0 #000,
+     1px  0   0 #000,
+     1px  1px 0 #000,
+     0    1px 0 #000,
+    -1px  1px 0 #000,
+    -1px  0   0 #000;
+    text-decoration: none;
+    color: white;
     padding-right: 2px;
     padding-left: 2px;
   }
 
-  @media (width < 1000px)
+  #about:hover {
+      color: var(--mainColor)
+  }
+
+  @media (width < 1000px) {
+
+  }

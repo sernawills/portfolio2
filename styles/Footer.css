@@ -1,21 +1,27 @@
 .footer {
     width: 100%;
-    height: 200px;
-    background-color: #121619;
+    height: 1vh;
+    background-color: var(--white);
     display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+    justify-content: right;
+    flex-direction: row;
     padding-top: 10px;
   }
-  
-  .socialMedia svg {
-    color: white;
-    margin: 20px;
-    font-size: 70px;
+ 
+.footer p {
+    margin-right: 0.5rem;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 0.8rem;
+    line-height: 1;
+    color: var(--grey);
+}
+
+#impressum {
+    text-decoration: underline;
+    color: var(--grey);
+}
+
+#impressum :hover {
     cursor: pointer;
-  }
-  
-  .footer p {
-    color: white;
-  }
+}
