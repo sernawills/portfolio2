@@ -17,6 +17,8 @@ overview:
               content: Worked together with two other course participants. 
             - heading: DURATION
               content: 3 months. 
+            - heading: DATE 
+              content: October 2021 - January 2022
             - heading: CHALLENGE
               content: Design a service with the background topic of bullying using different tools like cultural probes, co-creation, and ideation workshop.  
             - heading: IDEA 
@@ -145,7 +147,10 @@ After the first half of the workshop we gathered a lot of ideas from all of us 5
 
 At the end of the ideation/prototyping workshop we had a much clearer direction, two ideas to choose from and four prototypes. We met the next day to discuss the direction we wanted to take. We decided to go for the idea "Screentime Cops".
 
-![ideen generiert](/images/screentimecops/ideanapkin.png)
+![ideen generiert](/images/screentimecops/ideanapkin1.png)
+![ideen generiert](/images/screentimecops/ideanapkin2.png)
+![ideen generiert](/images/screentimecops/ideanapkin3.png)
+![ideen generiert](/images/screentimecops/ideanapkin4.png)
 
 ### Screentime Cops: Digital Solution For Internet Addiction?
 

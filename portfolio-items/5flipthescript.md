@@ -17,13 +17,15 @@ overview:
               content: Three other participants from TechLabs from Web Development and Data Science
             - heading: DURATION 
               content: About 5 months of course, 1 month of project
+            - heading: DATE 
+              content: September 2020 - March 2021
             - heading: CHALLENGE
               content: Participants pitched different project ideas to choose from. This was one of the ideas from a participant and I voted for this one 
             - heading: IDEA
               content: A tool that allows users to translate any given text into gender neutral, or to flip the pronouns of the text 
 
 ---
-## PROCESS
+## — PROCESS
 
 ### The Problem
 
@@ -33,7 +35,7 @@ The written information in the internet can be heavily male gendered and/or bias
 
 Offering the user a [platform](https://www.figma.com/proto/XDxrsmeNLMoiQI1L9NBD7N/ui-FTS?page-id=0%3A1&node-id=1%3A2&viewport=325%2C48%2C0.05&scaling=scale-down&starting-point-node-id=1%3A2) with a tool to input text, and get a version that is neutral or with the pronouns flipped. Also a predictor to know how gender biased an article might be based on the source, author, etc.
 
-## Building Empathy
+## — BUILDING EMPATHY
 
 ### Survey Findings
 
@@ -62,9 +64,7 @@ The main insights we got are:
 With help of the personas I also created scenarios. Same as with the personas, I created them at first to help me articulate the questions of the survey and interview. And after the findings, I created new scenarios. I can say, the user research phase was definitely an iterative process.
 
 ![persona1](/images/fts/persona1.png)
-
 ![persona2](/images/fts/persona2.png)
-
 ![persona3](/images/fts/persona3.png)
 
 ### Creating requirements and strategy
@@ -96,7 +96,7 @@ During the process, I asked myself the following guiding questions:
 
 For this answer I tried doing a decision path diagram.
 
-## the user interface
+## — THE USER INTERFACE
 
 ### Making UI Decisions
 
@@ -129,7 +129,7 @@ I then started working on low fidelity wireframes with Figma. This was useful to
 
 ### Logo
 
- The logo needed to represent gender binarity and non binarity at the same time. I needed to represent gender in a way that is still familiar and recognizable to the potential user of our application, but that at the same time make them feel like something is different, intriguing and slightly uncomfortable.
+The logo needed to represent gender binarity and non binarity at the same time. I needed to represent gender in a way that is still familiar and recognizable to the potential user of our application, but that at the same time make them feel like something is different, intriguing and slightly uncomfortable.
 
 With those thoughts in mind I looked for inspiration. After many iterations I chose 10 that I later draw again in Figma. I asked my team to vote for their favorite. And that's how we chose our logo.
 

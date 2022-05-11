@@ -16,13 +16,15 @@ overview:
               content: Worked together with other 4 participants from diverse professional backgrounds, collaborated with another separate team of 5 participants as well.
             - heading: DURATION
               content: 10 weeks 
+            - heading: DATE 
+              content: April 2020 - March 2021
             - heading: CHALLENGE
               content: Design a work environment concept so attractive that employees of all generations, functions and working styles love to come to the office of a manufacturer for the electronics industry. 
             - heading: IDEAS
               content: The Capsules, which allow employees to get flexible spaces, along with the Happy Tracker which improves the teamspirit during remote working. 
     overview_text: 
 ---
-## — overview
+## — OVERVIEW
 
 Our challenge was to design a work environment concept so attractive that employees of all generations, functions and working styles love to come to the office of Würth. Along our journey though we found out designing an attractive work environment is **by no means constrained to the physical space, but needs to be a hybrid solution.**
 
@@ -34,9 +36,9 @@ When working in the office, employees stated a lack of confidentiality as well a
 
 In order to tackle these two challenges and create an inviting environment, that supports hybrid working routines, we came up with two solutions that compliment each other:
 
- - **The Capsule Modules** offer flexible spaces for several work modes by accommodating focused, collaborative, alone and team work routines whilst guaranteeing confidentiality.
+- **The Capsule Modules** offer flexible spaces for several work modes by accommodating focused, collaborative, alone and team work routines whilst guaranteeing confidentiality.
   
- -  **The Happy Tracker** records and transparently shares individual and team wellbeing within the team. It allows employees to feel connected with each other when working remotely.
+- **The Happy Tracker** records and transparently shares individual and team wellbeing within the team. It allows employees to feel connected with each other when working remotely.
 
 ## — RESEARCH AND FINDINGS
 
@@ -106,7 +108,7 @@ The idea dashboard helps us to better communicate what the solution is about, ho
 
 We created about six idea dashboards and continued with two of them for the prototype and testing phase: **The Happy Tracker and the Capsule Modules.**
 
-## THE IDEAS
+## — THE IDEAS
 
 ### The Capsules
 
@@ -182,21 +184,13 @@ For the Happy Tracker we realized, at this point of the design, we needed to tes
 That's why we quickly had to find other alternatives to test other than the Figma prototype. We had to think about how to test the idea, so we came up with the following:
 
 1. Contacted our interview partners and asked if they would like to participate in our testing
-   
 2. Created a survey for each participant which would be the Happy Tracker, where we asked questions about their wellbeing and teamspirit during the week.
-   
 3. Asked each participant to fill their correspondant form every day for a week.
-   
 4. At the end of the week scheduled a 20 minute call with each participant, where we tried to find out:
-   
    - If they could imagine filling that out at the end of every week
-  
    - If they would do it voluntarily or only if it was a rule
-    
    - How much time they invested answering those questions
-    
    - If they see any personal and team value in doing this at the end of the week
-    
    - if they think it could improve the team spirit
 
 ![testsurvey](/images/wuerth/w_survey.png)
