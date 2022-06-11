@@ -42,13 +42,13 @@ In order to tackle these two challenges and create an inviting environment, that
 
 ## — RESEARCH AND FINDINGS
 
-### Gathering information and sharing experiences: creating a common understanding
+### Creating a common understanding
 
 We started off by conducting desktop research and explored the different dimensions of the challenge. We soon realized that aspects like information flow, trust, belonging, open communication are chore aspects to our challenge, that have to be considered from the beginning.
 
 ### Building Empathy By Listening
 
-We conducted about 30 interviews including team leaders and team members. We realized Würth is a company that has people from a diverse background of age, nationalities, and profession or role. Important findings include:
+We conducted **about 30 interviews** including team leaders and team members. We realized Würth is a company that has people from a diverse background of age, nationalities, and profession or role. Important findings include:
 
 - Working from home the communication with team colleagues is weaker and there is an overload in screen time.
 
@@ -78,7 +78,7 @@ The diversity of the interviews ranging from working students, to the heads of d
   
 This gained flexibility however, was for some translated in wanting to work more to prove and "keep" the given flexibility.
 
-### Points of view, to deepend the understanding
+### Points of view to deepend the understanding
 
 We chose two points of view based on real quotes of the interviewees to keep working from:
 
@@ -88,7 +88,7 @@ Hi, I’m Megha, 32 years old and I've been working as a Partnership Manager at 
 Our current meeting rooms are alright, but honestly they could be way prettier, and more inviting when you enter. It’s sometimes frustrating that I can’t showcast  how great our company is and what we are capable of doing by just stepping into an impressive meeting room. Even though the rooms are well equipped with technical tools they are not impressive or unique.
 I’d love to be able to invite partners and also have chats with my colleagues in a hotel lounge similar environment in order to create a more inviting and authentic experience. Being able to sit on a sofa, armchair or other furniture while drinking a coffee and chatting with guests and colleagues would create a more relaxed situation and increase trust. Especially the privacy part makes me sometimes uncomfortable. While telephone boxes currently exist in the office, I’m not happy with them because they are not sound isolated and they make it impossible to have confidential discussions without being heard by others.
 
-### Choosing hybrid solutions to combine the physical and virtual space
+### Choosing hybrid solutions: Combining physical and virtual spaces
 
 It was important for our team to find solutions that are applicable for the physical and virtual context as most of the employees suggested a strong preference for hybrid solutions.
 

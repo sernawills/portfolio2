@@ -1,4 +1,3 @@
-import '../styles/About.css';
 import '../styles/App.css';
 import '../styles/Footer.css';
 import '../styles/Home.css';
