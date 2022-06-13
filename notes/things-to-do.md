@@ -64,6 +64,6 @@
   - idea napkins of the sereen time cops are weird
   - prototype for screen time cops is in wrong order
   - maybe work a little bit on the flip the script project
-  - 
-
+  - homepage art
+- play page title 
 closing issues on github: commit message: "close #(number of the issue)"

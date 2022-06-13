@@ -23,6 +23,10 @@ overview:
               content: An application that uses artificial intelligence and augmented reality to transform paper wireframes into Figma frames.
     overview_text: Sketch2Frame uses artifical intelligence and augmented reality technologies to transform wireframes paper sketches into Figma frames.
 ---
+## Overview 
+
+To jump to the prototype you can click [here](https://www.figma.com/proto/Uc1KaoZ7xEayiw1M7hlEMJ/presentation?page-id=301%3A206&node-id=304%3A9755&viewport=-437%2C-2120%2C0.32&scaling=min-zoom&starting-point-node-id=304%3A9755&show-proto-sidebar=1)
+
 ## — THE CHALLENGE
 
 ### Why Sketch2Frame?

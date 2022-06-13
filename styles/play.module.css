@@ -1,0 +1,85 @@
+.play {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    max-width: 800px;
+    margin: 0 auto;
+    padding-top: 5em;
+    box-sizing: border-box;
+  }
+  .play .playTitle {
+    text-shadow:
+    -1px -1px 0 #000,
+     0   -1px 0 #000,
+     1px -1px 0 #000,
+     1px  0   0 #000,
+     1px  1px 0 #000,
+     0    1px 0 #000,
+    -1px  1px 0 #000,
+    -1px  0   0 #000;
+    color: var(--white);
+  }
+  
+  .playList {
+    width: 70vw;
+    height: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    place-items: center;
+  }
+  
+  /* MENU ITEM STYLING */
+  
+  .playItem {
+    border-radius: 15px;
+    width: 300px;
+    height: 350px;
+    margin: 20px;
+    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+  }
+  .playItem:hover {
+    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.5);
+    transition: 0.3s ease-in;
+    cursor: pointer;
+  }
+  
+  .playItem div {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    width: 100%;
+    height: 200px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+ 
+  .playItem h1,
+  .playItem p {
+    margin-left: 20px;
+  }
+
+  /* FILTERING TAB STYLING */
+
+  .filteringTab {
+      margin: 10px;
+      padding: 4px;
+      border: 3px solid rgba(0, 0, 0, 0);
+  }
+
+  .filteringTab:hover {
+   border: 3px solid rgb(198, 188, 255, 0.3);
+   cursor: pointer;
+}
+  
+  @media only screen and (max-width: 1300px) {
+    .playList {
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+  
+  @media only screen and (max-width: 800px) {
+    .playList {
+      grid-template-columns: 1fr;
+    }
+  }
