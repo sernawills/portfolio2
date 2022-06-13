@@ -5,7 +5,7 @@
 # layout 
 - nav bar on the right 
 - find better typefaces specially for the nav bar and titles
-- correct the layout spacing of each text element specially the texts 
+- correct the layout spacing of each text element specially the texts
 - maybe standarize which margins on which text elements 
 - 
 
@@ -14,7 +14,7 @@
 - center the content between the left edge and the nav bar
 
 # content 
-- iterate over uxai, 
+- iterate over uxai,
 - screentime cops, 
 - and sketch2frame 
 - about page 
@@ -42,3 +42,28 @@
 
 # lists 
 - make cards from items of the list 
+
+
+  @media only screen and (max-width: 1300px) {
+    .portfolioList {
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+  
+  @media only screen and (max-width: 800px) {
+    .portfolioList {
+      grid-template-columns: 1fr;
+    }
+  }
+
+
+  - make links go to an external tap
+  - make titles in the hybrid work shorter, so the background doesn't get fucked
+  - find a way of doing the points of view of the hybrid work either shorter or look better
+  - add some prototyping to sketch 2 frame
+  - idea napkins of the sereen time cops are weird
+  - prototype for screen time cops is in wrong order
+  - maybe work a little bit on the flip the script project
+  - homepage art
+- play page title 
+closing issues on github: commit message: "close #(number of the issue)"

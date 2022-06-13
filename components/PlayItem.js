@@ -1,15 +1,13 @@
 import React from 'react';
+import styles from '../styles/play.module.css'
 
-function PlayItem( {playItem} ) {
+function PlayItem( {item} ) {
     return(
-        playItem.map((item, index) => 
-            <div className='playItem' key={index}>
-                <div style={{ backgroundImage:  `url(${item.image})`  }}>  </div>
-                <h1> {item.name} </h1>
-                <p> {item.description} </p>
-            </div>
-        )
-            
+        <div className={styles.playItem}>
+            <div style={{ backgroundImage:  `url(${item.cover.cover_image})`  }}>  </div>
+            <h1> {item.cover.title} </h1>
+            <p> {item.cover.description} </p>
+        </div>
     )
 }
 

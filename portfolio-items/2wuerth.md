@@ -42,13 +42,13 @@ In order to tackle these two challenges and create an inviting environment, that
 
 ## — RESEARCH AND FINDINGS
 
-### Gathering information and sharing experiences: creating a common understanding
+### Creating a common understanding
 
 We started off by conducting desktop research and explored the different dimensions of the challenge. We soon realized that aspects like information flow, trust, belonging, open communication are chore aspects to our challenge, that have to be considered from the beginning.
 
 ### Building Empathy By Listening
 
-We conducted about 30 interviews including team leaders and team members. We realized Würth is a company that has people from a diverse background of age, nationalities, and profession or role. Important findings include:
+We conducted **about 30 interviews** including team leaders and team members. We realized Würth is a company that has people from a diverse background of age, nationalities, and profession or role. Important findings include:
 
 - Working from home the communication with team colleagues is weaker and there is an overload in screen time.
 
@@ -78,17 +78,14 @@ The diversity of the interviews ranging from working students, to the heads of d
   
 This gained flexibility however, was for some translated in wanting to work more to prove and "keep" the given flexibility.
 
-### Points of view, to deepend the understanding
+### Points of view to deepend the understanding
 
 We chose two points of view based on real quotes of the interviewees to keep working from:
 
-Hi, I’m Madini and I have been working for Würth for the last two years. I just turned 29 years old and I would describe myself as an outgoing and fun person. I really love my job and I have a great relationship with my colleagues who I consider somehow also my ‘work friends`. Since Corona hit and we all moved to the home office, I have the feeling of not being able to set clear boundaries between my work and private life. Don’t get me wrong, I enjoy the flexibility of doing my laundry during the lunch break or taking a longer break whenever I don’t have calls. But I noticed also, that I work way longer hours late into the evening and I just can’t turn my laptop off. Honestly, I get nervous when I see my availability sign on outlook moves from green to absent. I just feel the pressure to prove myself to the manager and to demonstrate how well I can work remotely. I don’t want to give up on this newly won freedom of managing my day and tasks the way it works best for me. But I really don’t care if my colleagues work fewer hours than me and I noticed that we speak way less to each other. Just picking up the phone and calling them in the home office for no reason feels wrong and I don’t want to bother them. However, I really miss our coffee chats and lunch breaks together.
+![point of view 1](/images/wuerth/pointofview1.png)
+![point of view 1](/images/wuerth/pointofview2.png)
 
-Hi, I’m Megha, 32 years old and I've been working as a Partnership Manager at Würth for the last 2,5 years. For the work I’m doing, namely building  relationships and creating new partnerships I need an impressive, yet inviting and confidentiality providing office environment and atmosphere. It is an important part of my job to create meaningful connections with external partners and colleagues and discuss tough topics while ensuring privacy.
-Our current meeting rooms are alright, but honestly they could be way prettier, and more inviting when you enter. It’s sometimes frustrating that I can’t showcast  how great our company is and what we are capable of doing by just stepping into an impressive meeting room. Even though the rooms are well equipped with technical tools they are not impressive or unique.
-I’d love to be able to invite partners and also have chats with my colleagues in a hotel lounge similar environment in order to create a more inviting and authentic experience. Being able to sit on a sofa, armchair or other furniture while drinking a coffee and chatting with guests and colleagues would create a more relaxed situation and increase trust. Especially the privacy part makes me sometimes uncomfortable. While telephone boxes currently exist in the office, I’m not happy with them because they are not sound isolated and they make it impossible to have confidential discussions without being heard by others.
-
-### Choosing hybrid solutions to combine the physical and virtual space
+### Choosing hybrid solutions: Combining physical and virtual spaces
 
 It was important for our team to find solutions that are applicable for the physical and virtual context as most of the employees suggested a strong preference for hybrid solutions.
 

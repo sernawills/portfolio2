@@ -25,7 +25,7 @@ export const span_elements: { [key: string]: { regex: RegExp, comp: JSONComp } }
         comp: { name: 'code', props: {} }
     }, link: {
         regex: /\[(?<link>.*?)\]\((?<link_href>.*?)(?: "(?<link_title>.*?)")?\)/,
-        comp: { name: 'a', props: { href: '$link_href', title: '$link_title' } }
+        comp: { name: 'a', props: { href: '$link_href', title: '$link_title', target: '_blank' } }
     }
 };
 
